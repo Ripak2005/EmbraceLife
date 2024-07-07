@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embrance Life - No one has ever become poor by giving</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+</head>
+<body>
+   <!-- navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-body-tertiary">
+    <a class="navbar-brand"><img class="logo1" src="assets/img/logo.png" alt=""></a>
+    <a class="logo navbar-brand" href="#">EmbraceLife</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav ml-auto text-dark">
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="donation.html">Donation</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="mission.html">Mission</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <button class="btn2 btn btn-success" onclick="navigateToPage1()"><i class="fa-solid fa-handshake-angle"></i> Join As Volunteer</button>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- navbar -->
+
+<!-- ----------------/ -->
+
+<div class="logoJ">
+    <img src="assets/img/volunteer.png" style="width: 100%;" alt="">
+</div>
+
+<div class="container-fluid text-dark">
+    <div class="row">
+        <div class="col-12 mt-4">
+            <form class="form-group form1"><br>
+                <p class="ml-2">Full Name</p>
+                <input type="text" placeholder="First Name" class="f1 form-control ml-2" required>
+                <input type="text" placeholder="Last Name" class="f2 form-control ml-2" required><br><br>
+                <p class="ml-2">E-mail</p>
+                <input type="email" placeholder="example@example.com" class="f3 form-control ml-2" required><br><br>
+                <p class="ml-2">Address Details</p>
+                <input type="text" placeholder="Enter your address" class="f7 form-control ml-2" required><br>
+                <input type="text" placeholder="State" class="f1 form-control ml-2" required><br><br>
+                <input type="text" placeholder="City" class="f1 form-control ml-2" required><br><br>
+                <input type="number" placeholder="Pincode" class="f2 form-control ml-2" required><br><br>
+                <p class="ml-2">Contact Number</p>
+                <input type="number" placeholder="0000 000 000" class="f4 form-control ml-2" required><br><br>
+                <p class="ml-2">Skillsets or Area of Interests</p>
+                <textarea class="f7 form-control ml-2" placeholder="Enter your Skillsets or Area of Interests ..."></textarea><br>
+                <p class="ml-2">Upload your photo</p>
+                <input type="file" class="f6 form-control ml-2" required><br><br>
+                <p class="ml-2">Comments</p>
+                <textarea class="f7 form-control ml-2" placeholder="Comments..."></textarea><br><br>
+                <button class="btn btn-success ml-2">Submit</button><br><br>
+            </form>
+        </div>
+    </div>
+ </div>
+
+<!-- ----------------/ -->
+
+<footer class="footer-section">
+    <div class="container">
+        <div class="footer-cta pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="cta-text">
+                            <h4>Find us</h4>
+                            <span>Chandigarh, India</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-phone"></i>
+                        <div class="cta-text">
+                            <h4>Call us</h4>
+                            <span>+91 XXXXXXXXXX</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="far fa-envelope-open"></i>
+                        <div class="cta-text">
+                            <h4>Mail us</h4>
+                            <span>example@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-content pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <a href="#" class="flogo"><img src="assets/img/logo.png" class="img-fluid" alt="logo" style="width: 10%;"> EmbraceLife</a>
+                        </div>
+                        <div class="footer-text">
+                            <p>Every act of kindness, no matter how small, is never wasted. Donate on <b>EmbraceLife</b> and make a difference.</p>
+                        </div>
+                        <div class="footer-social-icon">
+                            <span>Follow us</span>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-square-x-twitter"></i>
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                            <h3>Useful Links</h3>
+                        </div>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="donation.html">Donation</a></li>
+                            <li><a href="mission.html">Mission</a></li>
+                            <li><a href="about.html">About us</a></li>
+                            <li><a href="contact.html">Contact us</a></li>
+                            <li><a href="join.html">Join As Volunteer</a></li>
+                            <li><a href="donation.html">Donate Now</a></li>
+                            <li><a href="#">Expert Team</a></li>
+                            <li><a href="https://en.wikipedia.org/wiki/Poverty">Learn More</a></li>
+                            <li><a href="latestTrends.html">Latest News</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                            <h3>Subscribe</h3>
+                        </div>
+                        <div class="footer-text mb-25">
+                            <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                        </div>
+                        <div class="subscribe-form">
+                            <form action="#">
+                                <input type="text" placeholder="Email Address">
+                                <button><i class="fab fa-telegram-plane"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 text-center text-lg-left">
+                    <div class="copyright-text">
+                        <p>Copyright &copy; 2024, All Right Reserved <a href="#">EmbraceLife</a></p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 text-center text-lg-left">
+                    <div class="copyright-text text-center">
+                        <p>Made by Ripak Raj <img src="assets/img/heart.png" alt="" width="5%"></p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 d-none d-lg-block text-right">
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="donation.html">Donation</a></li>
+                            <li><a href="mission.html">Mission</a></li>
+                            <li><a href="mission.html">About us</a></li>
+                            <li><a href="contact.html">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </footer>
+  
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
